@@ -29,9 +29,7 @@ class PokemonDetailVC: UIViewController {
         pokemon.downloadPokemonDetails {
             
         }
-        
         navigationController?.isNavigationBarHidden = true
-        
         nameLabel.text = pokemon.name
     }
     
